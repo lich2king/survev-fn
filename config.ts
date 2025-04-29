@@ -15,17 +15,17 @@ export function getConfig(isProduction: boolean, dir: string) {
     const config: ConfigType = {
         apiServer: {
             host: "0.0.0.0",
-            port: 8000,
+            port: 9000,
         },
         gameServer: {
             host: "0.0.0.0",
-            port: 8001,
-            apiServerUrl: "http://127.0.0.1:8000",
+            port: 9001,
+            apiServerUrl: "http://127.0.0.1:9000",
             thisRegion: "local",
         },
         vite: {
             host: "127.0.0.1",
-            port: 3000,
+            port: 9000,
         },
         regions: {},
         modes: [

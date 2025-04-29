@@ -88,7 +88,7 @@ async function setupGameServer(config: PartialConfig) {
         name: "value",
         type: "text",
         required: true,
-        initial: `http://${config.apiServer?.host ?? "127.0.0.1"}:${config.apiServer?.port ?? 8000}`,
+        initial: `http://${config.apiServer?.host ?? "127.0.0.1"}:${config.apiServer?.port ?? 9000}`,
         validate(value) {
             return URL.parse(value) !== null;
         },
