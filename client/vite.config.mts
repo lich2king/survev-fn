@@ -10,28 +10,28 @@ import stripBlockPlugin from "vite-plugin-strip-block";
 
 export const SplashThemes = {
     main: {
-        MENU_MUSIC: "audio/ambient/menu_music_01.mp3",
-        SPLASH_BG: "/img/main_splash.png",
+        MENU_MUSIC: "./audio/ambient/menu_music_01.mp3",
+        SPLASH_BG: "./img/main_splash.png",
     },
     easter: {
-        MENU_MUSIC: "audio/ambient/menu_music_01.mp3",
-        SPLASH_BG: "/img/main_splash_easter.png",
+        MENU_MUSIC: "./audio/ambient/menu_music_01.mp3",
+        SPLASH_BG: "./img/main_splash_easter.png",
     },
     halloween: {
-        MENU_MUSIC: "audio/ambient/menu_music_02.mp3",
-        SPLASH_BG: "/img/main_splash_halloween.png",
+        MENU_MUSIC: "./audio/ambient/menu_music_02.mp3",
+        SPLASH_BG: "./img/main_splash_halloween.png",
     },
     faction: {
-        MENU_MUSIC: "audio/ambient/menu_music_01.mp3",
-        SPLASH_BG: "/img/main_splash_0_7_0.png",
+        MENU_MUSIC: "./audio/ambient/menu_music_01.mp3",
+        SPLASH_BG: "./img/main_splash_0_7_0.png",
     },
     snow: {
-        MENU_MUSIC: "audio/ambient/menu_music_01.mp3",
-        SPLASH_BG: "/img/main_splash_0_6_10.png",
+        MENU_MUSIC: "./audio/ambient/menu_music_01.mp3",
+        SPLASH_BG: "./img/main_splash_0_6_10.png",
     },
     spring: {
-        MENU_MUSIC: "audio/ambient/menu_music_01.mp3",
-        SPLASH_BG: "/img/main_splash_7_3.png",
+        MENU_MUSIC: "./audio/ambient/menu_music_01.mp3",
+        SPLASH_BG: "./img/main_splash_7_3.png",
     },
 };
 
