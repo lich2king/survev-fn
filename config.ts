@@ -14,14 +14,14 @@ export function getConfig(isProduction: boolean, dir: string) {
 
     const config: ConfigType = {
         apiServer: {
-            host: "0.0.0.0",
-            port: 9000,
+            host: "sbro.schoolbriefing.com",
+            port: 80,
         },
         gameServer: {
-            host: "0.0.0.0",
-            port: 9001,
-            apiServerUrl: "http://127.0.0.1:9000",
-            thisRegion: "local",
+            host: "sbro-sv.schoolbriefing.com",
+            port: 80,
+            apiServerUrl: "https://sbro.schoolbriefing.com:80",
+            thisRegion: "North America",
         },
         vite: {
             host: "127.0.0.1",
@@ -71,11 +71,12 @@ export function getConfig(isProduction: boolean, dir: string) {
         defaultItems: {},
     };
 
-    if (isDev) {
-        config.regions.local = {
-            https: false,
-            address: `127.0.0.1:${config.gameServer.port}`,
-            l10n: "index-local",
+    //if (isDev) 
+    {
+        config.regions.us = {
+            https: true,
+            address: `sbro.schoolbriefing.com:80`,
+            l10n: "index-north-america",
         };
     }
 
